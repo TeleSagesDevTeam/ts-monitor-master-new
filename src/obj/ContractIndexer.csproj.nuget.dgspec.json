@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/shuib/projekty/TeleSages/_Production/monitor/src/ContractIndexer.csproj": {}
+  },
+  "projects": {
+    "/home/shuib/projekty/TeleSages/_Production/monitor/lib/pocketbase-csharp-sdk/pocketbase-csharp-sdk/pocketbase-csharp-sdk.csproj": {
+      "version": "1.3.0-prerelease",
+      "restore": {
+        "projectUniqueName": "/home/shuib/projekty/TeleSages/_Production/monitor/lib/pocketbase-csharp-sdk/pocketbase-csharp-sdk/pocketbase-csharp-sdk.csproj",
+        "projectName": "pocketbase-csharp-sdk",
+        "projectPath": "/home/shuib/projekty/TeleSages/_Production/monitor/lib/pocketbase-csharp-sdk/pocketbase-csharp-sdk/pocketbase-csharp-sdk.csproj",
+        "packagesPath": "/home/shuib/.nuget/packages/",
+        "outputPath": "/home/shuib/projekty/TeleSages/_Production/monitor/lib/pocketbase-csharp-sdk/pocketbase-csharp-sdk/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shuib/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.15.2, )"
+            },
+            "MimeMapping": {
+              "target": "Package",
+              "version": "[1.0.1.50, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/shuib/projekty/TeleSages/_Production/monitor/src/ContractIndexer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/shuib/projekty/TeleSages/_Production/monitor/src/ContractIndexer.csproj",
+        "projectName": "ContractIndexer",
+        "projectPath": "/home/shuib/projekty/TeleSages/_Production/monitor/src/ContractIndexer.csproj",
+        "packagesPath": "/home/shuib/.nuget/packages/",
+        "outputPath": "/home/shuib/projekty/TeleSages/_Production/monitor/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shuib/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/shuib/projekty/TeleSages/_Production/monitor/lib/pocketbase-csharp-sdk/pocketbase-csharp-sdk/pocketbase-csharp-sdk.csproj": {
+                "projectPath": "/home/shuib/projekty/TeleSages/_Production/monitor/lib/pocketbase-csharp-sdk/pocketbase-csharp-sdk/pocketbase-csharp-sdk.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "Playwo.Common": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.1, 8.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
